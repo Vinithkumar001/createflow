@@ -23,9 +23,9 @@ jobs:
 
     - name: Build
       run: |
-        cd /path/to/your/project
         npm install
         npm run build
+
 
 
     - name: Deploy to server
